@@ -1,0 +1,24 @@
+.page_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    margin-top: 50px;
+  }
+  .employeeOfTheMonth {
+    text-align: center;
+  }
+  .employeeOfTheMonth img {
+    width: 250px;
+    border-radius: 100%;
+  }
